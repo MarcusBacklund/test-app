@@ -47,3 +47,10 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+.footer {
+  background: #2699FB;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
