@@ -4,11 +4,12 @@ import Home from './components/Home';
 import Pricing from './components/Pricing';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
-    return (      
-       <BrowserRouter>
+    return (
+      <BrowserRouter>
         <div>
           <Navigation />
             <Switch>
@@ -16,10 +17,12 @@ class App extends Component {
              <Route path="/pricing" component={Pricing}/>
             <Route component={Error}/>
            </Switch>
+           <div className="Footer">
+            <Footer />
+          </div>
         </div>
       </BrowserRouter>
-    );
-  }
+    )}
 }
 
 export default App;
