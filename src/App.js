@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import Pricing from './components/Pricing';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
- 
+
 class App extends Component {
   render() {
     return (      
@@ -14,8 +13,7 @@ class App extends Component {
           <Navigation />
             <Switch>
              <Route path="/" component={Home} exact/>
-             <Route path="/about" component={About}/>
-             <Route path="/contact" component={Contact}/>
+             <Route path="/pricing" component={Pricing}/>
             <Route component={Error}/>
            </Switch>
         </div>
@@ -23,5 +21,5 @@ class App extends Component {
     );
   }
 }
- 
+
 export default App;
