@@ -39,9 +39,10 @@
 
 .navbar {
   float: right;
+  width: 100%;
 }
 .navbar a {
-  float: left;
+  float: right;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
