@@ -1,3 +1,15 @@
+This is an exercise task, commissioned by Opiframe.
+
+(NB! To open Projekti.drawio you must use draw.io)
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
