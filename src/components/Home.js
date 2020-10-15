@@ -16,7 +16,7 @@ const home = () => {
             </div>
             <div className="Sidebar">
                 <h2>Sidebar</h2>
-                <p>Text</p>
+                <p><iframe src="https://open.spotify.com/embed/track/4fM2rHFNDcsvxUiLzxB78q" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
             </div>
        </div>
     );

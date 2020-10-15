@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <h2>Footer</h2>
-            <p>Footer content</p>
+            <p>Made by: <br />Marcus Backlund <br />Olli Saaristo</p>
         </div>
     );
 }
